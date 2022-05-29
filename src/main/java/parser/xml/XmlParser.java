@@ -1,4 +1,4 @@
-package parser;
+package parser.xml;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class XmlParser {
 
     public static void main(String[] args)
         throws ParserConfigurationException, IOException, SAXException {
-        File xmlFile = new File("C:/GitHub/JavaCodeExample/src/main/java/parser/sample.xml");
+        File xmlFile = new File("C:/GitHub/JavaCodeExample/src/main/java/parser/data/sample.xml");
         new XmlParser().getXmlData(xmlFile);
     }
 
