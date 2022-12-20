@@ -1,9 +1,6 @@
 package effective.jeneric.item27;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-
 public class ListClass<T> {
     private int size;
     private T[] elements;
